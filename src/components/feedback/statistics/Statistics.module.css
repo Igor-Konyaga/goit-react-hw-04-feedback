@@ -1,0 +1,29 @@
+.statistics {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+ 
+	margin-bottom: 20px;
+ }
+ 
+ .totalBody {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+ }
+ 
+ .statistics,
+ .totalBody{
+	 font-size: 20px;
+	 font-weight: 600;
+ }
+
+ .title {
+	margin: 0 0 30px 0;
+	font-size: 30px;
+ }
+
+ .list {
+	list-style: none;
+ }
+ 
