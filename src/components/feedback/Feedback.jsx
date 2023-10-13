@@ -22,6 +22,8 @@ export const Feedback = () => {
       case 'bad':
         setBad(prevState => prevState + 1);
         break;
+      default:
+        break;
     }
   };
 
